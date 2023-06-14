@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+p,
+span,
+h1,
+h2,
+h3,
+li,
+a {
+  font-family: sans-serif;
+}
+body {
+  background-color: blue;
+}
+h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 15px;
+  padding: 25px;
+}
+.card {
+  background-color: #f0f8ff;
+  padding: 30px;
+}
+.scopes {
+  grid-column: 1/2;
+}
+.team {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.timeline {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.header {
+  color: blue;
+  border-bottom: solid 1px #bbbbbb;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.content {
+  margin-top: 10px;
+}
+li,
+.scopes .content {
+  display: flex;
+}
+ul {
+  padding-left: 5px;
+}
+li .icon {
+  margin-right: 20px;
+}
+.goals .content li {
+  border-bottom: solid 1px #dfdfdf;
+}
+.timeline .content li .content-detail {
+  border-bottom: dotted 1px #8dd3d8;
+}
+li,
+.in,
+.out {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.timeline .content-detail {
+  padding-bottom: 5px;
+}
+.out {
+  margin-left: 40px;
+}
+.in h2,
+.out h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.icon {
+  font-size: 25px;
+}
+.primary .icon {
+  background-color: black;
+  color: #f0f8ff;
+  border-radius: 50%;
+  width: 50px;
+  height: 30px;
+  position: relative;
+}
+.timeline .icon {
+  background-color: #9e88ff;
+  color: #f0f8ff;
+  border-radius: 50%;
+  height: 40px;
+  width: 50px;
+  position: relative;
+  border: solid black 1px;
+}
+.primary .icon p,
+.timeline .icon p {
+  position: absolute;
+}
+.primary .icon p {
+  left: 5px;
+}
+.primary li .icon {
+  max-width: 21.41px;
+  min-width: 20px;
+}
+.timeline li .icon {
+  max-width: 50px;
+  min-width: 50px;
+}
+.timeline .icon p {
+  top: 5px;
+  left: 8px;
+}
+/* Tablet */
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .primary .icon {
+    width: 25px;
+  }
+  li,
+  .scopes .content {
+    display: block;
+  }
+  .primary .icon,
+  .team .icon,
+  .goals .icon {
+    margin: auto;
+    text-align: center;
+  }
+  .out {
+    margin-left: 0px;
+  }
+}

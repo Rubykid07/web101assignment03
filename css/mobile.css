@@ -1,0 +1,32 @@
+@media (max-width: 575px) {
+  body section > .container {
+    width: 575px;
+  }
+  #nav-bar .container {
+    display: block;
+    padding: 30px 50px;
+  }
+
+  #nav-bar .container .nav-bar-item {
+    display: block;
+    text-align: left;
+    border: none;
+    padding-top: 0px;
+  }
+  #about .container {
+    background-image: linear-gradient(#f5f5f5 50%, #f0f0f0 50%);
+    padding-top: 0;
+  }
+  #about .container #personal-info {
+    padding-top: 200px;
+  }
+  #about .container #target {
+    padding-top: 100px;
+  }
+  .certificate-2 {
+    border-left: none;
+  }
+  .grid-content-item .pro {
+    grid-template-columns: 70px 70px 70px;
+  }
+}

@@ -1,0 +1,292 @@
+* {
+  margin: 0px;
+}
+p,
+span,
+h1,
+h2,
+h3,
+li,
+a {
+  font-family: sans-serif;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+/* BANNER */
+.banner-img {
+  /* position: relative; */
+  height: 330px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  filter: brightness(70%);
+  display: block;
+  margin: auto;
+}
+
+#banner {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #f7f7f7;
+  text-align: center;
+}
+#banner span {
+  font-size: 10px;
+}
+/* NAV */
+#nav-bar .container {
+  display: grid;
+  grid-template-columns: 150px 150px 300px 150px 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+#banner-2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  height: 150px;
+  width: auto;
+  top: -75px;
+  left: 65px;
+  border: solid white 10px;
+  border-radius: 50%;
+}
+.nav-bar-item {
+  border-right: solid #c7c7c7 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-bar-item:nth-child(3) {
+  padding: 0;
+}
+.nav-bar-item:first-child,
+.nav-bar-item:nth-child(4) {
+  border-left: solid #c7c7c7 1px;
+}
+#nav-bar .container a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+.icon {
+  color: #199cdb;
+}
+/* PERSONAL-INFO */
+#about .container {
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+
+  padding-top: 100px;
+  grid-gap: 40px;
+
+  /* background hai màu, nguồn tham khảo:https://stackoverflow.com/questions/8541081/css-set-a-background-color-which-is-50-of-the-width-of-the-window */
+  background-image: linear-gradient(90deg, #f5f5f5 50%, #f0f0f0 50%);
+}
+#target {
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+#target p {
+  font-size: 14px;
+}
+.section-title {
+  margin-bottom: 40px;
+}
+
+.mt-40 li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.mt-40 {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.mt-40 li span {
+  font-weight: bold;
+}
+/* job-info */
+.col {
+  padding-top: 20px;
+}
+.view-more-less {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.grid-content {
+  border: #dcdcdc solid 2px;
+  padding: 30px 25px 35px 25px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-content: start;
+  height: 100%;
+  position: relative;
+}
+.grid-content-item {
+  grid-column: 1/-1;
+}
+.job-info-title {
+  font-size: 25px;
+}
+.icon_2 {
+  color: #000000;
+  font-size: 30px;
+}
+.content-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.date {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.now {
+  background-color: #199cdb;
+  color: white;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
+}
+.hobby {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
+}
+.icon_3 {
+  font-size: 18px;
+  border: #58d8ac solid 2px;
+  border-radius: 50%;
+}
+.ic-megaphone {
+  padding: 7.5px 5px;
+}
+.ic-strategy {
+  padding: 7.5px 10px;
+}
+.ic-hotairballoon {
+  padding: 7.5px 8.625px;
+}
+/* PROGRESS BAR */
+.pro {
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  gap: 5px;
+}
+.pro-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+.checked {
+  background-color: #199cdb;
+}
+/* CERTIFICATE */
+
+.certificate-content {
+  padding: 0px;
+}
+
+.certificate-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.certificate-item p {
+  font-size: 12px;
+}
+#certificate .certification {
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+}
+.certificate-1,
+.certificate-2 {
+  border-bottom: solid 1px #d6c08d;
+  padding-bottom: 40px;
+}
+.certificate-2 {
+  border-left: #d6c08d solid 1px;
+}
+/* PROJECT */
+.project-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  border-top: solid 2px #dcdcdc;
+  padding: 20px;
+}
+.project-detail a {
+  padding-left: 20px;
+}
+.project-img {
+  height: auto;
+  width: 100%;
+}
+.year {
+  background-color: #199cdb;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+table {
+  border-collapse: collapse;
+}
+table tr {
+  border-top: solid 2px #dcdcdc;
+}
+th {
+  font-weight: lighter;
+  width: 80px;
+  text-align: start;
+  vertical-align: top;
+  padding: 10px;
+}
+td {
+  text-align: start;
+  vertical-align: top;
+  padding-top: 10px;
+}
+.further-info {
+  border-top: solid 2px #dcdcdc;
+  padding: 20px;
+}
+
+.project-detail {
+  border: solid 2px #dcdcdc;
+}
+/* FOOTER */
+.footer-content li {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.footer-content {
+  text-align: center;
+}
+.col .hide,
+.hide {
+  display: none;
+}
