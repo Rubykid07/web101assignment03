@@ -223,8 +223,7 @@ section > .container {
   width: 100%;
   height: 100%;
 }
-.certificate-1,
-.certificate-2 {
+#certificate .main-col {
   border-bottom: solid 1px #d6c08d;
   padding-bottom: 40px;
 }
