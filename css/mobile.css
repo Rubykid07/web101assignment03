@@ -1,6 +1,6 @@
 @media (max-width: 575px) {
   body section > .container {
-    width: 575px;
+    width: 100%;
   }
   #nav-bar .container {
     display: block;
@@ -28,5 +28,25 @@
   }
   .grid-content-item .pro {
     grid-template-columns: 70px 70px 70px;
+  }
+  .project-detail .further-info {
+    display: block;
+    margin-bottom: 3px;
+  }
+  .project-detail .further-info div {
+    display: block;
+  }
+  .project-detail .project-title {
+    font-size: 16px;
+  }
+  .project-detail th {
+    padding: 10px;
+  }
+  .project-detail table {
+    font-size: 14px;
+  }
+  #footer .container .footer-content li {
+    font-size: 100%;
+    margin-right: 3px;
   }
 }
