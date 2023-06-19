@@ -1,6 +1,6 @@
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   section > .container {
-    width: 767px;
+    width: 100%;
   }
   .avatar {
     display: none;
@@ -13,5 +13,25 @@
   }
   #footer .footer-content li {
     font-size: 150%;
+  }
+  .further-info {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .dev {
+    grid-column: 2/3;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  th {
+    padding: 5px;
+  }
+  table {
+    font-size: 10px;
+  }
+  #footer .container .footer-content {
+    padding-left: 0px;
   }
 }
