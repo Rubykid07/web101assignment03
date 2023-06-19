@@ -270,9 +270,11 @@ td {
 }
 .further-info {
   border-top: solid 2px #dcdcdc;
-  padding: 20px;
+  padding: 10px;
 }
-
+.further-info div {
+  display: inline-block;
+}
 .project-detail {
   border: solid 2px #dcdcdc;
 }
