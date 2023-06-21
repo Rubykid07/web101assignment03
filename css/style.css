@@ -110,6 +110,13 @@ section > .container {
 
 #target p {
   font-size: 14px;
+  color: #787878;
+}
+#personal-info .info {
+  color: #787878;
+}
+#personal-info .info span {
+  color: #333;
 }
 .section-title {
   margin-bottom: 40px;
@@ -146,6 +153,9 @@ section > .container {
 }
 .grid-content-item {
   grid-column: 1/-1;
+}
+.grid-content-item p {
+  color: #787878;
 }
 .job-info-title {
   font-size: 25px;
@@ -212,11 +222,12 @@ section > .container {
 
 .certificate-header {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .certificate-item p {
-  font-size: 12px;
+  font-size: 14px;
+  color: #787878;
 }
 #certificate .certification {
   max-width: 300px;
@@ -252,6 +263,7 @@ section > .container {
 }
 table {
   border-collapse: collapse;
+  color: #787878;
 }
 table tr {
   border-top: solid 2px #dcdcdc;
@@ -271,6 +283,7 @@ td {
 .further-info {
   border-top: solid 2px #dcdcdc;
   padding: 10px;
+  color: #787878;
 }
 .further-info div {
   display: inline-block;
