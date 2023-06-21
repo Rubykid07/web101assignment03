@@ -18,6 +18,7 @@
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    font-size: 12px;
   }
   .dev {
     grid-column: 2/3;
@@ -27,9 +28,10 @@
   }
   th {
     padding: 5px;
+    width: 50px;
   }
   table {
-    font-size: 10px;
+    font-size: 12px;
   }
   #footer .container .footer-content {
     padding-left: 0px;
